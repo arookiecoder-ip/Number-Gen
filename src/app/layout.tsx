@@ -1,5 +1,6 @@
 import type {Metadata} from 'next';
 import './globals.css';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: 'Precision Number Generator',
@@ -19,6 +20,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased">{children}</body>
+      <SpeedInsights />
     </html>
   );
 }
