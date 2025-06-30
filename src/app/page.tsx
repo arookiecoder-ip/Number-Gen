@@ -90,7 +90,7 @@ export default function PrecisionRandPage() {
               <div className="bg-primary p-2 rounded-md">
                  <Hash className="h-6 w-6 text-primary-foreground" />
               </div>
-              <CardTitle className="font-headline text-2xl">PrecisionRand</CardTitle>
+              <CardTitle className="font-headline text-2xl">Precise Num Gen</CardTitle>
             </div>
             <CardDescription>
               Generate a random number with your desired precision within a specific range.
