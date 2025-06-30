@@ -2,7 +2,7 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Precision Number Geenrator',
+  title: 'Precision Number Generator',
   description: 'Generate Precise Number',
 };
 
