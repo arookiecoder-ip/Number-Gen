@@ -164,6 +164,11 @@ export default function Home() {
           </div>
         </CardContent>
       </Card>
+      
+      <footer className="py-6 text-center text-muted-foreground text-sm">
+        Created by <a href="https://github.com/arookiecoder-ip" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">arookiecoder</a>
+      </footer>
     </main>
+    
   );
 }
